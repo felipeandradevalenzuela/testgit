@@ -1,10 +1,14 @@
 import java.io.File;
 import java.util.Scanner;
 
+
 public class App {
     static String absPath = "D:\\PROJECTS\\Java Class\\Princeton\\";
 
     public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
+        int[] arr = new int[] {1,0,2,3,0,4,5,0};
+        Solution.duplicateZeros(arr);
         System.out.println("Creador de carpetas y archivos.");
         boolean exit = false;
         Scanner scanner = new Scanner(System.in);
